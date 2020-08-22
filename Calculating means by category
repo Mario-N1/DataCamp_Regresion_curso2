@@ -1,0 +1,7 @@
+summary_stats <- taiwan_real_estate %>%
+group_by(house_age_years)%>%
+summarize(mean_by_group=mean(price_twd_msq))
+summary_stats
+
+
+https://user-images.githubusercontent.com/54404570/90966756-064d9400-e49c-11ea-8604-8db2e8270b5d.png
