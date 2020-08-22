@@ -1,0 +1,7 @@
+# Run a linear regression of price_twd_msq vs. house_age_years
+mdl_price_vs_age <- lm(price_twd_msq ~ house_age_years, data= taiwan_real_estate)
+
+# See the result
+mdl_price_vs_age
+
+https://user-images.githubusercontent.com/54404570/90966789-7cea9180-e49c-11ea-9571-ffc788a11fb1.png
