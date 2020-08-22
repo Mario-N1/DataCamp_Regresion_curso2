@@ -1,0 +1,5 @@
+# Using taiwan_real_estate, plot price_twd_msq
+ggplot(taiwan_real_estate,aes(price_twd_msq))+ geom_histogram(bins=10)+facet_wrap(vars(house_age_years))
+
+
+https://user-images.githubusercontent.com/54404570/90966474-5b87a680-e498-11ea-934e-3e9a264c8f73.png
