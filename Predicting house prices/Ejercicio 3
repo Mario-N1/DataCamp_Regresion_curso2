@@ -1,0 +1,14 @@
+# From previous steps
+explanatory_data <- tibble(
+  n_convenience = 0:10
+)
+
+# Edit this, so predictions are stored in prediction_data
+prediction_data <- explanatory_data %>%
+mutate(
+    price_twd_msq = predict(
+       mdl_price_vs_conv, explanatory_data
+      )
+  )
+
+https://user-images.githubusercontent.com/54404570/90989926-c43b5580-e562-11ea-9442-960cac51e532.png
