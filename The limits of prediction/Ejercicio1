@@ -1,0 +1,6 @@
+# Define a tibble where n_convenience is -1
+minus_one <- tibble(n_convenience = -1)
+# Define a tibble where n_convenience is 2.5
+two_pt_five <- tibble(n_convenience = 2.5)
+
+https://user-images.githubusercontent.com/54404570/90990036-a5898e80-e563-11ea-9314-b0e2e088e1bc.png
