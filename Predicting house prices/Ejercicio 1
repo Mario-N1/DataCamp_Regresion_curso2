@@ -1,0 +1,4 @@
+# Create a tibble with n_convenience column from zero to ten
+explanatory_data <- tibble(n_convenience = 0:10)
+
+https://user-images.githubusercontent.com/54404570/90989795-1334bb00-e562-11ea-8335-bdd89883c87b.png
