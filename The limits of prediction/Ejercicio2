@@ -1,0 +1,12 @@
+The model successfully gives a prediction about cases that are impossible in real life.
+
+
+datos_causales <- tibble(n_convenience = -1)
+predict(mdl_price_vs_conv, datos_causales)
+
+datos_causales_2 <- tibble(n_convenience = 2.5)
+predict(mdl_price_vs_conv, datos_causales_2)
+
+
+
+https://user-images.githubusercontent.com/54404570/90990102-41b39580-e564-11ea-952c-173fef8af44f.png
