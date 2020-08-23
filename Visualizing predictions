@@ -1,0 +1,8 @@
+
+ggplot(taiwan_real_estate, aes(n_convenience, price_twd_msq)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  geom_point(data= prediction_data, color="yellow")
+
+
+https://user-images.githubusercontent.com/54404570/90989985-488dd880-e563-11ea-9373-319e82f99a90.png
